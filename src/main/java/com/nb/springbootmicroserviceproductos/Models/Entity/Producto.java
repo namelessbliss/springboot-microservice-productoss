@@ -21,6 +21,9 @@ public class Producto implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     private Date createAt;
 
+    @Transient //Indica como atributo no persistente
+    private int port;
+
     public Long getId() {
         return id;
     }
@@ -51,5 +54,13 @@ public class Producto implements Serializable {
 
     public void setCreateAt(Date createAt) {
         this.createAt = createAt;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
     }
 }
