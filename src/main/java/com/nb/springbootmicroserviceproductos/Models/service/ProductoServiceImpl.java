@@ -1,6 +1,6 @@
 package com.nb.springbootmicroserviceproductos.Models.service;
 
-import com.nb.springbootmicroserviceproductos.Models.Entity.Producto;
+import com.nb.springbootmicroservicecommons.Models.Entity.Producto;
 import com.nb.springbootmicroserviceproductos.Models.dao.ProductoDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

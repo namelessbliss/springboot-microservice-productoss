@@ -1,6 +1,6 @@
 package com.nb.springbootmicroserviceproductos.Controller;
 
-import com.nb.springbootmicroserviceproductos.Models.Entity.Producto;
+import com.nb.springbootmicroservicecommons.Models.Entity.Producto;
 import com.nb.springbootmicroserviceproductos.Models.service.IProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
